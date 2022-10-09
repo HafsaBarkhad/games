@@ -27,6 +27,9 @@ while True:
             break
         elif user_input not in choices:
             continue
+
+        elif user_input==choices[computer_input] :
+            continue
         elif user_input == "paper" and choices[computer_input] == "rock":
             user_score +=1
             continue
